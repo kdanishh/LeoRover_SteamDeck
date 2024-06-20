@@ -73,17 +73,17 @@ rosdep update
 
 ### STEP 3: Build Openmanipulator Package
 
-Create a catkin workspace and clone the packages from this repository:
+Create a catkin workspace and clone those packages from this repository to the source folder:
 ```
 source /opt/ros/noetic/setup.bash
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
+catkin_init_workspace
 git clone https://github.com/everskyrube/LeoRover_SteamDeck.git
 ```
 You can now build the packages using catkin_make:
 ```
-cd ..
-catkin_make
+cd ~/catkin_ws && catkin_make
 ```
 **_NOTE: For steamdeck, the default controls of the joystick is desktop mode, to switch to gamepad mode, hold the menu/start button to switch the mode of using steamdeck, (the 3 line button on the right side)_**
 

@@ -113,7 +113,7 @@ cd ~/catkin_ws
 source devel/setup.bash
 roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=true usb_port:=/dev/ttyUSB0
 ```
-If the manipulator_controlloer is successfully launched, you will see some ouput like this:
+If the manipulator_controlloer is successfully launched, you will see some ouput from the terminal like this:
 ```
 ##port_name and baud_rate are set to /dev/ttyUSB0, 1000000 
 ##Joint Dynamixel ID : 11, Model Name : XM430-W350

@@ -98,9 +98,9 @@ Grant permission to access the corresponding serial port ttyUSB(x), in our case,
 ```
 sudo chmod 666 /dev/ttyUSB0
 ```
-**_NOTE: For steamdeck, the default controls of the joystick is desktop mode, to switch to gamepad mode, hold the menu/start button to switch the mode of using steamdeck, (the 3 line button on the right side)_**
+### STEP 5: Switch joystick to Gamepad mode, and verify the input from Steam Deck joystick:
 
-To verify the input from Steam Deck joystick, you can use following commands:
+**_NOTE: For steamdeck, the default controls of the joystick is desktop mode, to switch to gamepad mode, hold the menu/start button to switch the mode of using steamdeck, (the 3 line button on the right side)_**
 ```
 sudo apt install joystick jstest-gtk
 jstest /dev/input/js0

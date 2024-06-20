@@ -70,6 +70,21 @@ sudo apt install python3-rosdep
 sudo rosdep init
 rosdep update
 ```
+
+### STEP 3: Build Openmanipulator Package
+
+Create a catkin workspace and clone the packages from this repository:
+```
+source /opt/ros/noetic/setup.bash
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws/src
+git clone https://github.com/everskyrube/LeoRover_SteamDeck.git
+```
+You can now build the packages using catkin_make:
+```
+cd ..
+catkin_make
+```
 **_NOTE: For steamdeck, the default controls of the joystick is desktop mode, to switch to gamepad mode, hold the menu/start button to switch the mode of using steamdeck, (the 3 line button on the right side)_**
 
 To verify the input from Steam Deck joystick, you can use following commands:

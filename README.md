@@ -49,7 +49,7 @@ Then once done, you can enter Ubuntu with distrobox:
 ```
 distrobox enter ubuntu-20-04
 ```
-This is where the fun begines. Now you can install or do whatever you like inside Ubuntu.
+This is where the fun begins. Now you can install or do whatever you like inside Ubuntu.
 
 ### STEP 2: Install ROS Noetic inside the Distrobox ubuntu-20-04
 

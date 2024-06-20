@@ -49,7 +49,15 @@ Then once done, you can enter Ubuntu with distrobox:
 ```
 distrobox enter ubuntu-20-04
 ```
-This is where the fun begines. Now you can install or do whatever you like in side Ubuntu.
+This is where the fun begines. Now you can install or do whatever you like inside Ubuntu.
+
+### STEP 2: Install ROS Noetic inside the Distrobox ubuntu-20-04
+
+```
+sudo apt install x11-xserver-utils
+sudo apt install lsb-release
+sudo apt install ros-noetic-desktop-full
+```
 
 
 

@@ -58,6 +58,18 @@ sudo apt install x11-xserver-utils
 sudo apt install lsb-release
 sudo apt install ros-noetic-desktop-full
 ```
+After ROS installation, source the ROS environment:
+```
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
+Then install ROS dependencies and initialize rosdep
+```
+sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
+sudo apt install python3-rosdep
+sudo rosdep init
+rosdep update
+```
 
 
 

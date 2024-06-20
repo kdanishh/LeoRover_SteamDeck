@@ -106,3 +106,19 @@ sudo apt install joystick jstest-gtk
 jstest /dev/input/js0
 ```
 
+### STEP 6: Source the environment and launch the package. Remember to update the _usb_port_ argument to match the connected port.
+**_NOTE:Manually hold the manipulator hardware to a proper position (i.e. home position) when you are launching the ROS package_**
+```
+cd ~/catkin_ws
+source devel/setup.bash
+roslaunch open_manipulator_controller open_manipulator_controller.launch use_platform:=true usb_port:=/dev/ttyUSB0
+```
+If the manipulator_controlloer is successfully launched, you will see some ouput like this:
+```
+##port_name and baud_rate are set to /dev/ttyUSB0, 1000000 
+##Joint Dynamixel ID : 11, Model Name : XM430-W350
+##Joint Dynamixel ID : 12, Model Name : XM430-W350
+##Joint Dynamixel ID : 13, Model Name : XM430-W350
+##Joint Dynamixel ID : 14, Model Name : XM430-W350
+##Gripper Dynamixel ID : 15, Model Name :XM430-W350
+```

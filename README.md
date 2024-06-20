@@ -122,3 +122,14 @@ If the manipulator_controlloer is successfully launched, you will see some ouput
 ##Joint Dynamixel ID : 14, Model Name : XM430-W350
 ##Gripper Dynamixel ID : 15, Model Name :XM430-W350
 ```
+### STEP 7: Open a separated terminal window, and launch the joystick teleop node.
+
+```
+distrobox enter ubuntu-20-04
+cd ~/catkin_ws
+source devel/setup.bash
+roslaunch open_manipulator_teleop open_manipulator_teleop_joystick.launch 
+```
+You're in! Now, have fun playing with it!
+
+### For the integration with other modules, stay tuned for further updates...

@@ -85,6 +85,19 @@ You can now build the packages using catkin_make:
 ```
 cd ~/catkin_ws && catkin_make
 ```
+
+### STEP 4: Grant Permission to access the serial port ttyUSB(x)
+
+Assume that you have correctly connected the Openmanipulator to the U2D2 Power Hub Board, to find the _use_port_ connected with the U2D2:
+**_NOTE: The ttyUSB port number will change sometimes when you disconnect and re-connect the serial port_**
+```
+ls -l /dev/ttyUSB*
+```
+Grant permission to access the corresponding serial port ttyUSB(x), in our case, the openmanipulator is connected with ttyUSB0:
+
+```
+sudo chmod 666 /dev/ttyUSB0
+```
 **_NOTE: For steamdeck, the default controls of the joystick is desktop mode, to switch to gamepad mode, hold the menu/start button to switch the mode of using steamdeck, (the 3 line button on the right side)_**
 
 To verify the input from Steam Deck joystick, you can use following commands:

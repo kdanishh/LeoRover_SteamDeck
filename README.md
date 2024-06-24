@@ -16,9 +16,17 @@ This project uses the [Steam Deck LCD](https://store.steampowered.com/steamdeck)
 # Manipulator
 In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/overview/) with the Leo Rover. The payload capacity of OpenMANIPULATIR-X is 500 g and it is composed of 5 [Dynamixel XM430-W350](https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/) actuators. The base of the Manipulator is 3D printed for the Leo Rover and the CAD model is available [here]().
 
+## Part List for OpenMANIPULATIR-X
+|  #|  Item| Description| Quantity|
+|-----|-----------|-----------|---------|
+|    1| OpenMANIPULATIR-X| Manipulator| 1|
+|    2| U2D2 USB to Serial Adapter| USB communication converter| 1|
+|    3| U2D2 PHB SET| Power Hub Board| 1|
+|    4| Manipulator Base| 3D printed base for the OpenMANIPULATIR-X Manipulaotr| 1|
+
 
 # Pan Tilt Camera
-The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/product/arducam-1080p-low-light-wdr-ultra-wide-angle-usb-camera-module-for-computer-2mp-cmos-imx291-160-degree-fisheye-mini-uvc-usb2-0-spy-webcam-board-with-microphone-3-3ft-cable-for-windows-linux-mac-os/) for the improved field of view. 
+The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/product/arducam-1080p-low-light-wdr-ultra-wide-angle-usb-camera-module-for-computer-2mp-cmos-imx291-160-degree-fisheye-mini-uvc-usb2-0-spy-webcam-board-with-microphone-3-3ft-cable-for-windows-linux-mac-os/) for the improved field of view. PT camera comprises 2 [Dynamixel XL330-M288](https://emanual.robotis.com/docs/en/dxl/x/xl330-m288/)
 
 ## Part List for Pan Tilt Camera
 |  #|  Item| Description| Quantity|
@@ -28,7 +36,8 @@ The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/
 |    3| FPX330-H10| Dynamixel frame for XL330| 2|
 |    4| FPX330-S102| Dynamixel frame for XL330| 2|
 
-
+# Power Distribution
+The 
 
 
 # Installation

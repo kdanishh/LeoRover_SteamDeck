@@ -133,7 +133,7 @@ roslaunch open_manipulator_teleop open_manipulator_teleop_joystick.launch
 You're in! Now, have fun playing with it!
 
 # Manipulator
-In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/overview/) with the Leo Rover.
+In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/overview/) with the Leo Rover. The payload capacity of [OpenMANIPULATIR-X](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/overview/) is 500 g and it is composed of 5 [Dynamixel XM430-W350] (https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/) actuators.
 
 # Part List for Pan Tilt Camera
 |  #|  Item| Description| Quantity|

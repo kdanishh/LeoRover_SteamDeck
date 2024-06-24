@@ -135,6 +135,10 @@ You're in! Now, have fun playing with it!
 # Part List for Pan Tilt Camera
 |  #|  Item| Description| Quantity|
 |-----|-----------|-----------|---------|
-|     1| Dynamixel XL330-M288| Smart servo| 2|
+|    1| Dynamixel XL330-M288| Smart servo| 2|
+|    2| Arducam B0202| 2MP wide angle low light USB camera| 1|
+|    3| FPX330-H10| Dynamixel frame for XL330| 2|
+|    4| FPX330-S102| Dynamixel frame for XL330| 2|
+
 
 ### For the integration with other modules, stay tuned for further updates...

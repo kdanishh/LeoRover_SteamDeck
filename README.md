@@ -14,6 +14,23 @@ However, the integration is not yet complete. This documentation includes only t
 
 [![Watch the video](https://img.youtube.com/vi/B2zQOKGyBeI/0.jpg)](https://www.youtube.com/watch?v=B2zQOKGyBeI)
 
+
+# Manipulator
+In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/overview/) with the Leo Rover. The payload capacity of OpenMANIPULATIR-X is 500 g and it is composed of 5 [Dynamixel XM430-W350](https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/) actuators. The base of the Manipulator is 3D printed and the CAD model is available [here]().
+
+
+
+# Part List for Pan Tilt Camera
+|  #|  Item| Description| Quantity|
+|-----|-----------|-----------|---------|
+|    1| Dynamixel XL330-M288| Smart servo| 2|
+|    2| Arducam B0202| 2MP wide angle low light USB camera| 1|
+|    3| FPX330-H10| Dynamixel frame for XL330| 2|
+|    4| FPX330-S102| Dynamixel frame for XL330| 2|
+
+
+
+
 # Installation
 
 ### STEP 1: Install Ubuntu 20.04 on Steam-Deck-LCD
@@ -131,17 +148,6 @@ source devel/setup.bash
 roslaunch open_manipulator_teleop open_manipulator_teleop_joystick.launch 
 ```
 You're in! Now, have fun playing with it!
-
-# Manipulator
-In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/overview/) with the Leo Rover. The payload capacity of OpenMANIPULATIR-X is 500 g and it is composed of 5 [Dynamixel XM430-W350](https://emanual.robotis.com/docs/en/dxl/x/xm430-w350/) actuators.
-
-# Part List for Pan Tilt Camera
-|  #|  Item| Description| Quantity|
-|-----|-----------|-----------|---------|
-|    1| Dynamixel XL330-M288| Smart servo| 2|
-|    2| Arducam B0202| 2MP wide angle low light USB camera| 1|
-|    3| FPX330-H10| Dynamixel frame for XL330| 2|
-|    4| FPX330-S102| Dynamixel frame for XL330| 2|
 
 
 ### For the integration with other modules, stay tuned for further updates...

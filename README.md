@@ -132,6 +132,9 @@ roslaunch open_manipulator_teleop open_manipulator_teleop_joystick.launch
 ```
 You're in! Now, have fun playing with it!
 
+# Manipulator
+In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.com/docs/en/platform/openmanipulator_x/overview/) with the Leo Rover.
+
 # Part List for Pan Tilt Camera
 |  #|  Item| Description| Quantity|
 |-----|-----------|-----------|---------|

@@ -132,4 +132,9 @@ roslaunch open_manipulator_teleop open_manipulator_teleop_joystick.launch
 ```
 You're in! Now, have fun playing with it!
 
+# Part List for Pan Tilt Camera
+|  #|  Item| Description| Quantity|
+|-----|-----------|-----------|---------|
+|     1| Dynamixel XL330-M288| Smart servo| 2|
+
 ### For the integration with other modules, stay tuned for further updates...

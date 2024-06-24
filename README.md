@@ -32,8 +32,11 @@ The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/
 |-----|-----------|-----------|---------|
 |    1| Dynamixel XL330-M288| Smart servo| 2|
 |    2| Arducam B0202| 2MP wide angle low light USB camera| 1|
-|    3| FPX330-H10| Dynamixel frame for XL330| 2|
-|    4| FPX330-S102| Dynamixel frame for XL330| 2|
+|    3| FPX330-H10| Dynamixel| Frame for XL330| 2|
+|    4| FPX330-S102| Dynamixel| Drame for XL330| 2|
+|    5|	DIN912 M2.5x20	M2.5x20| Socket head bolt|	4|
+|    6|	DIN934 M2.5	M2.5 hexigon| Nut|	4|
+|    7|	DIN912 M2x5	M2x5 socket| Head bolt|	4|
 
 # Power Distribution
 The servo motors for the manipulator (Dynamixel XM430-W350) require 12V DC and the servo motors for the Pan Tilt Camera (Dynamixel XL330-M288) require 5V DC. We have used Leo Rover [PowerBox](https://www.leorover.tech/shop/powerbox) for the power distribution. The PowerBox module can be replace by the Leo Rover's right quarter for easy integration.The use of PowerBox is optional and the power can be distributed by using the step down power convertors.

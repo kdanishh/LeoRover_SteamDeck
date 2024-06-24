@@ -19,15 +19,14 @@ In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.
 ## Part List for OpenMANIPULATIR-X
 |  #|  Item| Description| Quantity|
 |-----|-----------|-----------|---------|
-|    1| OpenMANIPULATIR-X| Manipulator| 1|
+|    1| Open MANIPULATIR-X| Manipulator| 1|
 |    2| U2D2 USB to Serial Adapter| USB communication converter| 1|
 |    3| U2D2 PHB SET| Power Hub Board| 1|
 |    4| Manipulator Base| 3D printed base for the OpenMANIPULATIR-X Manipulator| 1|
 
 
 # Pan Tilt Camera
-The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/product/arducam-1080p-low-light-wdr-ultra-wide-angle-usb-camera-module-for-computer-2mp-cmos-imx291-160-degree-fisheye-mini-uvc-usb2-0-spy-webcam-board-with-microphone-3-3ft-cable-for-windows-linux-mac-os/) for the improved field of view. PT camera comprises 2 [Dynamixel XL330-M288](https://emanual.robotis.com/docs/en/dxl/x/xl330-m288/)
-
+The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/product/arducam-1080p-low-light-wdr-ultra-wide-angle-usb-camera-module-for-computer-2mp-cmos-imx291-160-degree-fisheye-mini-uvc-usb2-0-spy-webcam-board-with-microphone-3-3ft-cable-for-windows-linux-mac-os/) for the improved field of view. The PT camera assembly comprises 2 [Dynamixel XL330-M288](https://emanual.robotis.com/docs/en/dxl/x/xl330-m288/) and some 3D printed parts. Please refer to the following list for all the required parts
 ## Part List for Pan Tilt Camera
 |  #|  Item| Description| Quantity|
 |-----|-----------|-----------|---------|

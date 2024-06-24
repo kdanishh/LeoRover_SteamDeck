@@ -42,7 +42,7 @@ The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/
 |    9| Camera housing| 3D Printed Housing for the camera| 1|
 |   10| Camera housing cover| 3D Printed	cover for the camera housing| 1|
 |   11| Camera Lens cap| 3D Printed Lens cap for Arducam UC-684|	1|
-|   12| Cable clip| 3D Printed Cable clip| 1|
+|   12| Cable clip| 3D Printed Cable clip| Optional|
 
 ### TODO: Link to CAD Models for 3D printing
 

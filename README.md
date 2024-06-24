@@ -27,7 +27,7 @@ In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.
 
 
 # Pan Tilt Camera
-The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/product/arducam-1080p-low-light-wdr-ultra-wide-angle-usb-camera-module-for-computer-2mp-cmos-imx291-160-degree-fisheye-mini-uvc-usb2-0-spy-webcam-board-with-microphone-3-3ft-cable-for-windows-linux-mac-os/) for the improved field of view. The PT camera assembly comprises 2 [Dynamixel XL330-M288](https://emanual.robotis.com/docs/en/dxl/x/xl330-m288/) and some 3D printed parts. Please refer to the following list for all the required parts
+The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/product/arducam-1080p-low-light-wdr-ultra-wide-angle-usb-camera-module-for-computer-2mp-cmos-imx291-160-degree-fisheye-mini-uvc-usb2-0-spy-webcam-board-with-microphone-3-3ft-cable-for-windows-linux-mac-os/) for the improved field of view. The PT camera assembly comprises 2 [Dynamixel XL330-M288](https://emanual.robotis.com/docs/en/dxl/x/xl330-m288/) and some 3D printed parts. Please refer to the following list for all the required parts.
 ## Part List for Pan Tilt Camera
 |  #|  Item| Description| Quantity|
 |-----|-----------|-----------|---------|
@@ -39,9 +39,10 @@ The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/
 |    6|	DIN912 M2x5	|M2x5 socket head bolt|	4|
 |    7|	Tappex 017M2.5|	M2.5 threaded insert|	4|
 |    8|	Base mount|	3D Printed Base of the pan tilt device| 1|
-|    9| Camera housing| 3D Housing for the camera| 1|
-|    10| Camera housing cover| 3D printed	cover for the camera housing| 1|
-|    11| Camera Lens cap| 3D Lens cap for Arducam UC-684|	1|
+|    9| Camera housing| 3D Printed Housing for the camera| 1|
+|   10| Camera housing cover| 3D Printed	cover for the camera housing| 1|
+|   11| Camera Lens cap| 3D Printed Lens cap for Arducam UC-684|	1|
+|   12| Cable clip| 3D Printed Cable clip| 1|
 
 # Power Distribution
 The servo motors for the manipulator (Dynamixel XM430-W350) require 12V DC and the servo motors for the Pan Tilt Camera (Dynamixel XL330-M288) require 5V DC. We have used Leo Rover [PowerBox](https://www.leorover.tech/shop/powerbox) for the power distribution. The PowerBox module can be replace by the Leo Rover's right quarter for easy integration.The use of PowerBox is optional and the power can be distributed by using the step down power convertors.

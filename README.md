@@ -8,8 +8,6 @@ This project uses the [Steam Deck LCD](https://store.steampowered.com/steamdeck)
 |     2| Manipulator Module|
 |     3| Pan-Tilt-Camera Module|
 
-However, the integration is not yet complete. This documentation includes only the first two modules and is prepared for temporary reference. 
-
 # Demonstration Video
 
 [![Watch the video](https://img.youtube.com/vi/B2zQOKGyBeI/0.jpg)](https://www.youtube.com/watch?v=B2zQOKGyBeI)

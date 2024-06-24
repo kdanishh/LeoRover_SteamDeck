@@ -44,7 +44,7 @@ The Rover is equipped with the Pan Tilt [ArduCam B0202](https://www.arducam.com/
 |   11| Camera Lens cap| 3D Printed Lens cap for Arducam UC-684|	1|
 |   12| Cable clip| 3D Printed Cable clip| 1|
 
-### TODO: Link to CAD Model for 3D printing.
+### TODO: Link to CAD Models for 3D printing
 
 # Power Distribution
 The servo motors for the manipulator (Dynamixel XM430-W350) require 12V DC and the servo motors for the Pan Tilt Camera (Dynamixel XL330-M288) require 5V DC. We have used Leo Rover [PowerBox](https://www.leorover.tech/shop/powerbox) for the power distribution. The PowerBox module can be replace by the Leo Rover's right quarter for easy integration.The use of PowerBox is optional and the power can be distributed by using the step down power convertors.

@@ -22,7 +22,7 @@ In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.
 |    1| OpenMANIPULATIR-X| Manipulator| 1|
 |    2| U2D2 USB to Serial Adapter| USB communication converter| 1|
 |    3| U2D2 PHB SET| Power Hub Board| 1|
-|    4| Manipulator Base| 3D printed base for the OpenMANIPULATIR-X Manipulaotr| 1|
+|    4| Manipulator Base| 3D printed base for the OpenMANIPULATIR-X Manipulator| 1|
 
 
 # Pan Tilt Camera

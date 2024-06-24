@@ -22,7 +22,7 @@ In this project, we have integrated [OpenMANIPULATIR-X](https://emanual.robotis.
 |    1| Open MANIPULATIR-X| Manipulator| 1|
 |    2| U2D2 USB to Serial Adapter| USB communication converter| 1|
 |    3| U2D2 PHB SET| Power Hub Board| 1|
-|    4|
+|    4| DIN912 M5x10mm| Thread Cap Head Screws| 4|
 |    5| Manipulator Base| 3D printed base for the OpenMANIPULATIR-X Manipulator| 1|
 
 
